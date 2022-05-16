@@ -1,0 +1,307 @@
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+:root {
+  scroll-behavior: smooth;
+}
+
+/* Basic Stylings */
+body {
+  margin: 0;
+  width: 100%;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 16px;
+}
+
+.hero {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url("./landing-page-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fill;
+}
+
+.header {
+  display: flex;
+  min-height: 10vh;
+  width: 100%;
+  position: center;
+}
+
+.SWO {
+  font-size: 100px;
+  justify-content: center;
+  padding-left: 50vh;
+}
+
+.CTS {
+  font-size: 45px;
+  justify-content: center;
+  padding-left: 60vh;
+  padding-top: -4vh;
+  color: #808080;
+}
+
+.offer-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  width: 100%;
+  min-height: 800px;
+  padding: 2vw;
+}
+
+.offer {
+  background: black;
+  color: #F6B611;
+  padding: 20px 40px;
+  height: 100px;
+  text-align: center;
+  display: grid;
+  place-items: center center;
+}
+
+h3 {
+  font-size: 45px;
+  margin-bottom: 0px;
+  margin-top: 30px;
+}
+
+.logo {
+  width: 100%;
+}
+
+.logo img {
+  width: 200px;
+  height: auto;
+}
+
+h1 {
+  font-size: 105px;
+  color: #F6B611;
+  padding-left: 550px;
+  margin: 0;
+}
+
+.soccer-sections {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  width: 100%;
+  min-height: 800px;
+  padding: 2vw;
+}
+
+.soccer-girls-side {
+  color: black;
+  padding: 20px 40px;
+  height: 100px;
+  text-align: center;
+  display: grid;
+  place-items: center center;
+}
+
+h2 {
+  font-size: 80px;
+  color: black;
+  margin: 0;
+  margin-bottom: 12;
+}
+
+.soccer-girls-side img {
+  width: 300px;
+  height: auto;
+  margin: 30px;
+}
+
+.soccer-text img{
+  height: 20vh;
+  width: 30vw;
+}
+
+h4 {
+  font-size: 20px;
+  color: black;
+  align-items: center;
+  padding-top: 70px;
+}
+
+h5 {
+  font-size: 15px;
+  color: black;
+  margin: 0;
+
+}
+
+h6 {
+  font-size: 30px;
+  color: black;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+h7 {
+  font-size: 12px;
+  color: black;
+}
+
+.XCTF {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  width: 100%;
+  min-height: 800px;
+  padding: 2vw;
+}
+
+h8 {
+  font-size: 45px;
+  color: #F6B611;
+  padding: 20px 40px;
+}
+
+.cross-country img {
+  width: 400px;
+  height: auto;
+  margin: 30px;
+}
+
+h9 {
+  font-size: 42px;
+  color: black;
+  padding: 20px 40px;
+}
+
+.track img{
+  width: 300px;
+  height: auto;
+  margin: 30px;
+}
+
+.xctf-coach img {
+  width: 300px;
+  height: auto;
+  margin: 20px;
+}
+
+.Golf {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  width: 100%;
+  min-height: 800px;
+  padding: 2vw;
+}
+
+h10 {
+  font-size: 35px;
+  color: black;
+  padding: 40px 20px;
+}
+
+.girls-golf img{
+  width: 300px;
+  height: auto;
+  margin: 20px;
+}
+
+.boys-golf img{
+  width: 300px;
+  height: auto;
+  margin: 20px;
+}
+
+h11 {
+  font-size: 80px;
+  color: black;
+  margin: 0;
+  margin-bottom: 12;
+  padding: 40px 80px;
+}
+
+.basketball {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  width: 100%;
+  min-height: 800px;
+  padding: 2vw;
+}
+
+.side-1 img{
+  width: 600px;
+  height: auto;
+  margin: 20px;
+}
+
+h12 {
+  font-size: 20px;
+  color: black;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+h13 {
+  font-size: 105px;
+  color: #F6B611;
+  padding-left: 450px;
+  margin: 30px;
+}
+
+.volleyball {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  width: 100%;
+  min-height: 800px;
+  padding: 2vw;
+}
+
+h14 {
+  font-size: 25px;
+  color: black;
+  align-items: center;
+  padding-top: 700px;
+}
+
+.left-side img {
+  height: 40vh;
+}
+
+.middle img {
+  width: 35vw;
+  height: 20vh;
+}
+
+.tennis {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  width: 100%;
+  min-height: 800px;
+  padding: 2vw;
+}
+
+.girls-tennis img{
+  width: 25vw;
+  height: 30vh;
+}
+
+.boys-tennis img{
+  width: 25vw;
+  margin: 20px;
+}
+
+.baseball {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  width: 100%;
+  min-height: 800px;
+  padding: 2vw;
+}
+
+.Malcolm img {
+  height: 65vh;
+}
